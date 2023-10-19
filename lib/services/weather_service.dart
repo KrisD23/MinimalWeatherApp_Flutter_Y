@@ -43,6 +43,6 @@ class WeatherService {
     // extract the city from the first placemark
     String? city = placemarks[0].locality!;
 
-    return city ?? "";
+    return city;
   }
 }
